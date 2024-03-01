@@ -7,6 +7,7 @@ const FooterStyled = styled.div`
   color: white;
   position: absolute;
   bottom: 0px;
+  display: none;
 `;
 
 export default FooterStyled;

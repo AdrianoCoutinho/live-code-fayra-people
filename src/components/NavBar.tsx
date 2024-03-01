@@ -10,8 +10,8 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ navigation }) => {
   return (
     <NavBarStyled>
-      {navigation.map(item => (
-        <Link to={item.url}>{item.label}</Link>
+      {navigation.map((item, index) => (
+        <Link key={index} to={item.url}>{item.label}</Link>
       ))}
     </NavBarStyled>
   );

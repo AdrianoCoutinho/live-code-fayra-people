@@ -5,7 +5,7 @@ export interface NavigationType {
 
 const navigation: NavigationType[] = [
   { url: '/', label: 'Início' },
-  { url: '/products', label: 'Produtos' },
+  { url: '/searchPeople', label: 'Pessoas' },
   { url: '/contact', label: 'Contato' }
 ];
 
